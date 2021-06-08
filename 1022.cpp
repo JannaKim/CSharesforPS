@@ -68,7 +68,6 @@ int main()
 			{
 				max = len;
 			}
-
 			len = 0;
 		}
 	}
