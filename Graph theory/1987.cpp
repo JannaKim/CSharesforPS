@@ -18,7 +18,7 @@ void dfs(int x, int y, int cnt)
 		m = cnt;
 	}
 
-	if(y > 0 && alp[board[x][y - 1] - 65] == 0) // À§·Î
+	if(y > 0 && alp[board[x][y - 1] - 65] == 0)
 	{
 		alp[board[x][y - 1] - 65] = 1;
 		dfs(x, y - 1, cnt + 1);
