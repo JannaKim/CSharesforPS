@@ -12,7 +12,6 @@ struct ctr
 
 int n;
 
-int game[4][18];
 int pairOfElement[15][2];
 int visit[6][6];
 int success;
