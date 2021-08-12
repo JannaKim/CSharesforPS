@@ -36,6 +36,7 @@ int main(void)
 	while (t--)
 	{
 		fill(&visit[0], &visit[10000], 0);
+		
 		int flag = 0;
 		int a, b;
 
