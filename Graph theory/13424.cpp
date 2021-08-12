@@ -33,7 +33,7 @@ void dijk(int member, int start, vector<pair<int, int>> path[101])
 		for (int i = 0; i < size; i++)
 		{
 			int next = path[h][i].first;
-			long long nc = path[h][i].second;
+			int nc = path[h][i].second;
 
 			if (dist[member][next] > dist[member][h] + nc)
 			{
