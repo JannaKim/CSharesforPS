@@ -6,6 +6,7 @@ using namespace std;
 
 int t, n, m, k;
 int dist[101][101];
+
 const int mugen = 214855055;
 
 void dijk(int member, int start, vector<pair<int, int>> path[101])
